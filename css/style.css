@@ -1,0 +1,33 @@
+body {
+  background-color:  #b4e8e7 ;
+  color:  #FFC300;
+  ba ckground:url(https://goo.gl/QL3LF7);
+
+  }
+h1{
+  font-size: 50px;
+  font-family:lobster, fantasy,cursive;
+  text-align:center;
+  color: maroon;
+}
+h2{
+  font-size: 40px;
+  font-family:lobster, fantasy,cursive;
+  text-align:center;
+  color: maroon;
+}
+.searchBox{
+  text-align: center;
+}
+.resultBox{
+  width: 80%;
+  margin: auto;
+}
+.well:hover{
+  background-color: #bdbdbd;
+
+  }
+  .well{
+    background-color:  #e0f7fa ;
+    padding: 0px 20px;
+  }
