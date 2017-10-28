@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wikipedia Viewer</title>
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
     <link rel="stylesheet" href="css/style.css">
@@ -10,27 +11,22 @@
 
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid text-center">
       <h2>Free Code Camp</h2>
       <h1>Wikipedia Viewer</h1>
-      <div class="searchBox">
 
-        <input type="text" class="btn-outline-secondary" placeholder="Searh Wikipedia.." id="searchTerm" style="color:grey">
-
-        <input type="submit" id="search" value="submit" tyle="color:red">
-        <br>
-        <i><a href='https://en.wikipedia.org/wiki/Special:Random' target = 'blank'><h4>Click here for random Search</h4></a></i>
-
-
+      <div class="input-group" style="max-width: 300px; margin: auto">
+          <input type="text" class="form-control" placeholder="Searh Wikipedia.." id="searchTerm" style="color:grey">
+          <span class="input-group-btn">
+            <button type="submit" id="search" class="btn btn-primary">Submit</button>
+          </span>
       </div>
+        <p><a href='https://en.wikipedia.org/wiki/Special:Random' target = 'blank'><h4>Click here for random Search</h4></a></p>
+    </div>
 
       <div class="resultBox">
-
         <span id="result"></span>
       </div>
-
-
-    </div>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <script  src="js/script.js"></script>
   </body>

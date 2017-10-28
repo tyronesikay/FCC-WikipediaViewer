@@ -7,20 +7,24 @@ body {
 h1{
   font-size: 50px;
   font-family:lobster, fantasy,cursive;
-  text-align:center;
+
   color: maroon;
 }
 h2{
   font-size: 40px;
   font-family:lobster, fantasy,cursive;
-  text-align:center;
+
   color: maroon;
 }
 .searchBox{
   text-align: center;
+  max-width: 200px
+  margin:auto;
+
 }
 .resultBox{
-  width: 80%;
+  max-width: 900px;
+  padding: 1em;
   margin: auto;
 }
 .well:hover{
@@ -29,5 +33,6 @@ h2{
   }
   .well{
     background-color:  #e0f7fa ;
-    padding: 0px 20px;
+    padding: 1em 2em;
+    margin: 1em
   }
